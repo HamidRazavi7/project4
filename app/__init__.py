@@ -1,12 +1,12 @@
 """A simple flask web app"""
 import os
-from flask import Flask
+from flask import Flask, render_template
 from app.cli import create_database
 from app.db import db
 from app.db.models import User
 
 
-def page_not_found(e):
+def page_not_found():
     return render_template("404.html"), 404
 
 def create_app():
