@@ -17,3 +17,12 @@ def test_calculator_get_result_method():
     # this checks the calculator get result method
     assert calculator.get_result() == 0
 
+def test_calculator_result_property():
+    """Testing the Calculator"""
+    #  these show multiple calculator classes being instantiated and used independently
+    calc1 = Calculator()
+    calc2 = Calculator()
+    calc1.result = 8
+    calc2.result = 9
+    assert calc1.result == 8
+    assert calc2.result == 9
