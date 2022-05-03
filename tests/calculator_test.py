@@ -11,3 +11,9 @@ def test_calculator_is_instance():
     # checking that calculator variable contains an instance of Calculator class
     assert isinstance(calculator, Calculator)
 
+def test_calculator_get_result_method():
+    """Testing the Calculator"""
+    calculator = Calculator()
+    # this checks the calculator get result method
+    assert calculator.get_result() == 0
+
