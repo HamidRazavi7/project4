@@ -18,3 +18,8 @@ def test_calculator_multiply_method():
     """Testing the Calculator multiply"""
     calculator = Calculator()
     assert calculator.multiply(1, 1) == 1
+
+def test_calculator_divide_method():
+    """Testing the Calculator divide"""
+    calculator = Calculator()
+    assert calculator.divide(1, 1) == 1
