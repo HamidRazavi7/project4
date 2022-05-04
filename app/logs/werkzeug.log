@@ -1,1 +1,26 @@
 2022-05-03 15:31:19,391 [INFO] werkzeug: 192.168.80.1 - - [03/May/2022 15:31:19] "GET / HTTP/1.1" 200 -
+2022-05-03 15:37:41,443 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:37:41] "GET / HTTP/1.1" 200 -
+2022-05-03 15:37:48,064 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:37:48] "GET /login HTTP/1.1" 200 -
+2022-05-03 15:37:59,051 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:37:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-03 15:37:59,064 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:37:59] "GET /login HTTP/1.1" 200 -
+2022-05-03 15:38:01,221 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:38:01] "GET /register HTTP/1.1" 200 -
+2022-05-03 15:38:11,392 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:38:11] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-03 15:38:11,469 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:38:11] "GET /login HTTP/1.1" 200 -
+2022-05-03 15:38:19,244 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:38:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-03 15:38:19,316 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:38:19] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 15:41:24,499 [INFO] werkzeug: 192.168.96.1 - - [03/May/2022 15:41:24] "[33mGET /MFAwTjBMMEowSDAHBgUrDgMCGgQUq%2FN3sict544Y1aZ+WxKX3OjF2sEEFDrhCYbUzxnClnZ0SXbc4DXGY2OaAhEA82ROa24AUCN+CUa9e+H1HQ%3D%3D HTTP/1.1[0m" 404 -
+2022-05-04 00:46:01,078 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 00:46:01] "[33mGET /MFAwTjBMMEowSDAHBgUrDgMCGgQUq%2FN3sict544Y1aZ+WxKX3OjF2sEEFDrhCYbUzxnClnZ0SXbc4DXGY2OaAhEA82ROa24AUCN+CUa9e+H1HQ%3D%3D HTTP/1.1[0m" 404 -
+2022-05-04 02:09:10,291 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:10] "GET /locations/map HTTP/1.1" 200 -
+2022-05-04 02:09:11,140 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:11] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-05-04 02:09:11,217 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:11] "GET /api/locations/ HTTP/1.1" 200 -
+2022-05-04 02:09:15,771 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:15] "GET /about HTTP/1.1" 200 -
+2022-05-04 02:09:19,250 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:19] "GET /songs HTTP/1.1" 200 -
+2022-05-04 02:09:22,003 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:22] "GET /songs/upload HTTP/1.1" 200 -
+2022-05-04 02:09:40,445 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:40] "GET / HTTP/1.1" 200 -
+2022-05-04 02:09:43,961 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-04 02:09:44,000 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:44] "GET /dashboard HTTP/1.1" 200 -
+2022-05-04 02:09:47,352 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:47] "GET /songs HTTP/1.1" 200 -
+2022-05-04 02:09:48,734 [INFO] werkzeug: 192.168.96.1 - - [04/May/2022 02:09:48] "GET /songs/upload HTTP/1.1" 200 -
+2022-05-04 04:43:02,683 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 04:43:02] "GET /welcome HTTP/1.1" 200 -
+2022-05-04 04:43:04,408 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 04:43:04] "GET /about HTTP/1.1" 200 -
+2022-05-04 05:11:24,175 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/operations_test.py', reloading
