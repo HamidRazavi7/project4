@@ -12,3 +12,12 @@ def test_calculator_add_method():
 def test_my_first_test_add():
     """Testing the simplest addition"""
     assert 1 + 1 == 2
+
+def test_calculator_subtract_method():
+    """Testing the Calculator Subtract"""
+    calculator = Calculator()
+    assert calculator.subtract(1, 1) == 0
+
+def test_my_first_test_subtract():
+    """Testing the simplest subtraction"""
+    assert 1 - 1 == 0
