@@ -12,6 +12,7 @@ def application():
     application.config.update({
         "TESTING": True,
     })
+    application.config['WTF_CSRF_ENABLED'] = False
     yield application
 
 
