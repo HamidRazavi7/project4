@@ -123,3 +123,19 @@
 2022-05-04 14:25:41,880 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:25:41] "GET /transactions/upload HTTP/1.1" 200 -
 2022-05-04 14:25:48,414 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:25:48] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
 2022-05-04 14:25:48,492 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:25:48] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 14:35:37,792 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:35:37] "GET /about HTTP/1.1" 200 -
+2022-05-04 14:35:38,747 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:35:38] "[33mGET /MFAwTjBMMEowSDAHBgUrDgMCGgQUq%2FN3sict544Y1aZ+WxKX3OjF2sEEFDrhCYbUzxnClnZ0SXbc4DXGY2OaAhEA82ROa24AUCN+CUa9e+H1HQ%3D%3D HTTP/1.1[0m" 404 -
+2022-05-04 14:35:39,159 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:35:39] "GET /dashboard HTTP/1.1" 200 -
+2022-05-04 14:35:59,911 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:35:59] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 14:36:27,693 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:36:27] "GET /dashboard HTTP/1.1" 200 -
+2022-05-04 14:36:31,709 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:36:31] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 14:37:49,393 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:37:49] "GET /users HTTP/1.1" 200 -
+2022-05-04 14:37:49,454 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:37:49] "GET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1" 200 -
+2022-05-04 14:37:58,910 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:37:58] "GET /users HTTP/1.1" 200 -
+2022-05-04 14:37:58,940 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:37:58] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-05-04 14:38:05,748 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:38:05] "GET / HTTP/1.1" 200 -
+2022-05-04 14:38:09,895 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:38:09] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 14:42:45,709 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:42:45] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 14:43:58,974 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:43:58] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 14:47:45,753 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:47:45] "GET /transactions HTTP/1.1" 200 -
+2022-05-05 00:45:20,016 [INFO] werkzeug:  * Detected change in '/home/myuser/app/config.py', reloading
