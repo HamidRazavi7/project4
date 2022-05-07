@@ -150,3 +150,7 @@
 2022-05-07 14:06:59,232 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_auth_pages.py', reloading
 2022-05-07 14:13:22,446 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 14:13:22] "[33mGET /MFAwTjBMMEowSDAHBgUrDgMCGgQUq%2FN3sict544Y1aZ+WxKX3OjF2sEEFDrhCYbUzxnClnZ0SXbc4DXGY2OaAhEA82ROa24AUCN+CUa9e+H1HQ%3D%3D HTTP/1.1[0m" 404 -
 2022-05-07 14:13:28,839 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_auth_pages.py', reloading
+2022-05-07 14:39:29,764 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 14:39:29] "[33mGET /event?d_cid=64650%01F1B3EFD566D31A9DAD73817BD6035D245.U1&d_event=imp&c_mailingname=20220503_MBV_SOLO_CC_US_ACQ_CHASE_RTO_PT125K_Q2_W2_ENG HTTP/1.1[0m" 404 -
+2022-05-07 14:39:29,771 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 14:39:29] "[33mGET /ucm/UCMController?dtm_com=2&dtm_cid=62046&dtm_cmagic=8585e3&dtm_fid=103&dtm_format=6&cli_promo_id=99&dtm_email_hash=f166d9f183ea35f32447b4d9ad223971&harmony_cid=df56a880-3559-4627-95c3-a554b3e8ef58&adcs_brand=kay&dtm_user_id=1624852533&dtmc_drop_id=05032022 HTTP/1.1[0m" 404 -
+2022-05-07 14:39:29,772 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 14:39:29] "[33mGET /ucm/UCMController?dtm_com=2&dtm_cid=2554&dtm_cmagic=8c59fd&dtm_fid=103&dtm_format=6&cli_promo_id=99&dtm_email_hash=ad440a679c0d23d2a8320062d0076d12&dtm_user_id=990749848&dtmc_drop_id=2022-05-05 HTTP/1.1[0m" 404 -
+2022-05-07 14:40:13,363 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_auth_pages.py', reloading
