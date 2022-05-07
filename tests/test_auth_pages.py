@@ -8,4 +8,6 @@ def test_auth_pages(client):
         "password": "testtest"
     })
     assert b"Redirecting..." in response.data
+    # Verify that we are redirecting to the dashboard
+    assert b'href="/dashboard"' in response.data
     assert response.status_code == 302
