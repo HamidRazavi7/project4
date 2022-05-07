@@ -2874,3 +2874,420 @@ WHERE users.id = ?
 2022-05-07 14:44:10,127 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
 2022-05-07 14:44:10,129 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
 2022-05-07 14:44:10,132 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:47:09,660 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:47:09,671 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:47:09,675 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,683 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:47:09,685 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,690 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:47:09,714 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,724 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:47:09,726 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,738 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:47:09,743 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:47:09,744 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:47:09,749 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,755 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:47:09,756 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,761 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:47:09,763 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,766 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:47:09,768 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:09,773 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:47:09,899 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:47:09,902 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:47:09,905 [INFO] sqlalchemy.engine.Engine: [generated in 0.00314s] ('test@test', 1, 0)
+2022-05-07 14:47:09,958 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:47:09,962 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:47:09,972 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-07 14:47:09,979 [INFO] sqlalchemy.engine.Engine: [generated in 0.00695s] (1,)
+2022-05-07 14:47:10,010 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:47:10,025 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:47:10,027 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:47:10,029 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,034 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:47:10,036 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,039 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:47:10,040 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,043 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:47:10,045 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,048 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:47:10,062 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:47:10,064 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:47:10,065 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,078 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:47:10,080 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,085 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:47:10,087 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,098 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:47:10,105 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,118 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:47:10,121 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:47:10,123 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:47:10,128 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,158 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:47:10,165 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,169 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:47:10,170 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,180 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:47:10,182 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:47:10,185 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:27,387 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:27,395 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:50:27,399 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,407 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:50:27,409 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,416 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:50:27,422 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,432 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:50:27,435 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,444 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:27,449 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:27,461 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:50:27,463 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,478 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:50:27,486 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,496 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:50:27,521 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,604 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:50:27,624 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:27,649 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:27,822 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:27,825 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:50:27,829 [INFO] sqlalchemy.engine.Engine: [generated in 0.00448s] ('test@test', 1, 0)
+2022-05-07 14:50:27,939 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:27,945 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:27,960 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-07 14:50:27,963 [INFO] sqlalchemy.engine.Engine: [generated in 0.00289s] (1,)
+2022-05-07 14:50:27,986 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:50:28,014 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:28,018 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:50:28,020 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,027 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:50:28,029 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,036 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:50:28,042 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,046 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:50:28,048 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,102 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:28,122 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:28,124 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:50:28,126 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,134 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:50:28,138 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,140 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:50:28,144 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,147 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:50:28,149 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,161 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:28,163 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:28,165 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:50:28,171 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,181 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:50:28,183 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,185 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:50:28,187 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,195 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:50:28,196 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,204 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:28,330 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:28,332 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:50:28,337 [INFO] sqlalchemy.engine.Engine: [generated in 0.00489s] ('test@test', 1, 0)
+2022-05-07 14:50:28,400 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:50:28,413 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:28,434 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:50:28,439 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,455 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:50:28,458 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,461 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:50:28,465 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,481 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:50:28,484 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,493 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:50:28,498 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:50:28,501 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:50:28,504 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,513 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:50:28,536 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,539 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:50:28,545 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,552 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:50:28,556 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:50:28,562 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,278 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,284 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:51:37,290 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,315 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:51:37,319 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,326 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:51:37,327 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,332 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:51:37,336 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,341 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,345 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,358 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:51:37,360 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,373 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:51:37,375 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,379 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:51:37,383 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,387 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:51:37,389 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,395 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,484 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,487 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:51:37,489 [INFO] sqlalchemy.engine.Engine: [generated in 0.00209s] ('test@test', 1, 0)
+2022-05-07 14:51:37,541 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,546 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,548 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-07 14:51:37,550 [INFO] sqlalchemy.engine.Engine: [generated in 0.00169s] (1,)
+2022-05-07 14:51:37,555 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:51:37,568 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,570 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:51:37,571 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,575 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:51:37,577 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,580 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:51:37,581 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,585 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:51:37,587 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,590 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,608 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,611 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:51:37,612 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,618 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:51:37,620 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,625 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:51:37,628 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,632 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:51:37,634 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,638 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,642 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,643 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:51:37,646 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,652 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:51:37,653 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,656 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:51:37,658 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,661 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:51:37,662 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,667 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,742 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,744 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:51:37,746 [INFO] sqlalchemy.engine.Engine: [generated in 0.00241s] ('test@test', 1, 0)
+2022-05-07 14:51:37,799 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:51:37,848 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,850 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:51:37,851 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,855 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:51:37,857 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,864 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:51:37,867 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,877 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:51:37,879 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,883 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:51:37,889 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:51:37,893 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:51:37,894 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,904 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:51:37,906 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,911 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:51:37,913 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,917 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:51:37,919 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:51:37,922 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:45,788 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:45,789 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:56:45,790 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,795 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:56:45,796 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,800 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:56:45,802 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,804 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:56:45,806 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,809 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:45,812 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:45,813 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:56:45,815 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,818 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:56:45,820 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,822 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:56:45,824 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,827 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:56:45,829 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:45,832 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:45,925 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:45,927 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:56:45,930 [INFO] sqlalchemy.engine.Engine: [generated in 0.00290s] ('test@test', 1, 0)
+2022-05-07 14:56:45,983 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:45,988 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:45,992 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-07 14:56:45,994 [INFO] sqlalchemy.engine.Engine: [generated in 0.00209s] (1,)
+2022-05-07 14:56:46,004 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:56:46,018 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:46,021 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:56:46,023 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,029 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:56:46,030 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,035 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:56:46,037 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,044 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:56:46,048 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,052 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:46,069 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:46,071 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:56:46,072 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,079 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:56:46,080 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,084 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:56:46,085 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,088 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:56:46,090 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,093 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:46,096 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:46,097 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:56:46,098 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,104 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:56:46,108 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,116 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:56:46,118 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,122 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:56:46,126 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,132 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:46,216 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:46,217 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:56:46,220 [INFO] sqlalchemy.engine.Engine: [generated in 0.00202s] ('test@test', 1, 0)
+2022-05-07 14:56:46,270 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:56:46,282 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:46,287 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:56:46,289 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,295 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:56:46,299 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,307 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:56:46,309 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,316 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:56:46,317 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,324 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:56:46,328 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:56:46,330 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:56:46,332 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,338 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:56:46,340 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,345 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:56:46,348 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,354 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:56:46,356 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:56:46,365 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:57:07,992 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:07,993 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:57:07,995 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:07,999 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:57:08,001 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,004 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:57:08,005 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,008 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:57:08,010 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,012 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:57:08,016 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,018 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:57:08,019 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,023 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:57:08,024 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,027 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:57:08,028 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,031 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:57:08,032 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,034 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:57:08,121 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,123 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:57:08,125 [INFO] sqlalchemy.engine.Engine: [generated in 0.00206s] ('test@tt', 1, 0)
+2022-05-07 14:57:08,140 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:57:08,152 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,154 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:57:08,155 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,161 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:57:08,162 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,168 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:57:08,170 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,174 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:57:08,176 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,180 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:57:08,194 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,198 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:57:08,209 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,217 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:57:08,218 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,224 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:57:08,226 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,230 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:57:08,231 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,235 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:57:08,238 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,240 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:57:08,241 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,246 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:57:08,248 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,253 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:57:08,255 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,258 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:57:08,259 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,262 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:57:08,331 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,332 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-07 14:57:08,334 [INFO] sqlalchemy.engine.Engine: [generated in 0.00197s] ('test@test', 1, 0)
+2022-05-07 14:57:08,385 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-07 14:57:08,396 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,397 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:57:08,399 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,403 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:57:08,405 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,409 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:57:08,411 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,414 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:57:08,415 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,422 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-07 14:57:08,426 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-07 14:57:08,428 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transaction_user")
+2022-05-07 14:57:08,430 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,435 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("transactions")
+2022-05-07 14:57:08,437 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,440 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("locations")
+2022-05-07 14:57:08,441 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,444 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-07 14:57:08,445 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-07 14:57:08,448 [INFO] sqlalchemy.engine.Engine: COMMIT
