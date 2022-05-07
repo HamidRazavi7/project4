@@ -19,6 +19,7 @@ def application():
 @pytest.fixture()
 def client(application):
     """This makes the http client"""
+    application.config['SECRET_KEY'] = 'blah'
     return application.test_client()
 
 
