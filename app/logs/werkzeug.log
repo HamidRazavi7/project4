@@ -139,3 +139,14 @@
 2022-05-04 14:43:58,974 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:43:58] "GET /transactions HTTP/1.1" 200 -
 2022-05-04 14:47:45,753 [INFO] werkzeug: 192.168.112.1 - - [04/May/2022 14:47:45] "GET /transactions HTTP/1.1" 200 -
 2022-05-05 00:45:20,016 [INFO] werkzeug:  * Detected change in '/home/myuser/app/config.py', reloading
+2022-05-07 13:45:42,037 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:45:42] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 13:52:40,467 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:52:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-07 13:52:40,687 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:52:40] "GET /login HTTP/1.1" 200 -
+2022-05-07 13:57:22,634 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:57:22] "GET / HTTP/1.1" 200 -
+2022-05-07 13:57:28,127 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:57:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-07 13:57:28,173 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:57:28] "GET /login HTTP/1.1" 200 -
+2022-05-07 13:58:36,458 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:58:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-07 13:58:36,528 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 13:58:36] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 14:06:59,232 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_auth_pages.py', reloading
+2022-05-07 14:13:22,446 [INFO] werkzeug: 192.168.112.1 - - [07/May/2022 14:13:22] "[33mGET /MFAwTjBMMEowSDAHBgUrDgMCGgQUq%2FN3sict544Y1aZ+WxKX3OjF2sEEFDrhCYbUzxnClnZ0SXbc4DXGY2OaAhEA82ROa24AUCN+CUa9e+H1HQ%3D%3D HTTP/1.1[0m" 404 -
+2022-05-07 14:13:28,839 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_auth_pages.py', reloading
