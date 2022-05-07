@@ -7,8 +7,8 @@
     {% block title %}Browse: {{ record_type }}{% endblock %}
     {% block content %}
 
-                <a href="{{ url_for("transactions.transactions_upload") }}" class="btn col-3 mb-5 btn-info" role="button">Upload Transactions</a>
-
+        <a href="{{ url_for("transactions.transactions_upload") }}" class="btn col-3 mb-5 btn-info" role="button">Upload Transactions</a>
+        <div id="balance"></div>
         <h2>Browse: Transactions</h2>
         {{ render_table(data) }}
         {% from 'bootstrap5/pagination.html' import render_pagination %}
@@ -19,6 +19,9 @@
     <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
         <script type=text/javascript>
             $(document).ready(function () {
+                $.get('/transactions/current', data => {
+                    $('#balance').html(`<h4>Current balance of $${data}</h4>`)
+                })
                 $('.table').DataTable();
             });
         </script>

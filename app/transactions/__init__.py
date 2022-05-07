@@ -7,6 +7,7 @@ from flask_login import current_user, login_required
 from jinja2 import TemplateNotFound
 
 from app.db import db
+from sqlalchemy import text
 from app.db.models import Transaction
 from app.transactions.forms import csv_upload
 from werkzeug.utils import secure_filename, redirect
@@ -41,13 +42,14 @@ def transactions_upload():
         with open(filepath) as file:
             csv_file = csv.DictReader(file)
             for row in csv_file:
-                print (row)
+                # for debugging:
+                # print (row)
                 list_of_transactions.append(Transaction(row['AMOUNT'], row['TYPE'],))
 
         current_user.transactions = list_of_transactions
         db.session.commit()
 
-        log.info('Music CSV Was Uploaded')
+        log.info('Transaction CSV Was Uploaded')
         return redirect(url_for('transactions.transactions_browse'))
 
     try:
@@ -55,3 +57,11 @@ def transactions_upload():
         return render_template('upload.html', form=form)
     except TemplateNotFound:
         abort(404)
+
+@transactions.route('/transactions/current', methods=['GET'])
+@login_required
+def current_balance():
+    sql = text('SELECT SUM(amount) AS current_balance FROM transactions')
+    result = db.engine.execute(sql)
+    balance = [row[0] for row in result]
+    return str(balance[0])
