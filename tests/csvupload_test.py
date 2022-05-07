@@ -6,4 +6,3 @@ def test_csvupload(client):
     # once the login test works I copy that code here for logging in
     res = client.get("/login")
     assert res.status_code == 200
-    response = client.post('/transactions/upload', data=data)
