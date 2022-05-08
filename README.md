@@ -13,4 +13,4 @@
 
 ![Running Program](screenshots/database.png)
 
-![Running Program](screenshots/current_balance.png)
+![Running Program](screenshots/total_current_balance.png)
