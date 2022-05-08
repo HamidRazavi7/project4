@@ -11,6 +11,6 @@
 
 # Database and Transaction's Current Balance:
 
+![Running Program](screenshots/database.png)
 
-![Running Program](Screenshots/database.png)
-![Running Program](Screenshots/current_balance.png)
+![Running Program](screenshots/current_balance.png)
