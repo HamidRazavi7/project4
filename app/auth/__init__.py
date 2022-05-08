@@ -15,10 +15,10 @@ auth = Blueprint('auth', __name__, template_folder='templates')
 
 @auth.route('/register', methods=['POST', 'GET'])
 def register():
+    form = register_form()
     log = logging.getLogger("registration")
     if current_user.is_authenticated:
         return redirect(url_for('auth.dashboard'))
-    form = register_form()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
         if user is None:
