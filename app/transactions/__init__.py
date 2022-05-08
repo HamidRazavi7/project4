@@ -33,7 +33,7 @@ def transactions_browse(page):
 @login_required
 def transactions_upload():
     form = csv_upload()
-    log = logging.getLogger("csvupload")
+    log = logging.getLogger("csvupload.log")
     if form.validate_on_submit():
         filename = secure_filename(form.file.data.filename)
         filepath = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
