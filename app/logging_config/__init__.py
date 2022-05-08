@@ -99,7 +99,7 @@ LOGGING_CONFIG = {
         'file.handler.csvupload': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
-            'filename': os.path.join(config.Config.LOG_DIR,'csvupload.log'),
+            'filename': os.path.join(config.Config.LOG_DIR,'transaction_csv_upload.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },
