@@ -285,3 +285,13 @@
 2022-05-08 14:15:35,670 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:15:35] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
 2022-05-08 14:15:35,754 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:15:35] "GET /transactions HTTP/1.1" 200 -
 2022-05-08 14:15:35,836 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:15:35] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-08 14:36:50,965 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/csvupload_test.py', reloading
+2022-05-08 14:37:57,825 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:37:57] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-08 14:38:06,421 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:38:06] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-08 14:38:06,518 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:38:06] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-08 14:38:06,528 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:38:06] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-08 14:38:06,595 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:38:06] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-08 14:43:15,590 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:43:15] "[33mGET /event?d_cid=64650%01F1B3EFD566D31A9DAD73817BD6035D245.U1&d_event=imp&c_mailingname=ACHIEVERS_ENG HTTP/1.1[0m" 404 -
+2022-05-08 14:46:50,405 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:46:50] "GET /welcome HTTP/1.1" 200 -
+2022-05-08 14:46:52,516 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:46:52] "GET /transactions HTTP/1.1" 200 -
+2022-05-08 14:46:52,762 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:46:52] "GET /transactions/current HTTP/1.1" 200 -
