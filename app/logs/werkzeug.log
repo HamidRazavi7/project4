@@ -299,3 +299,5 @@
 2022-05-08 22:55:10,929 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 22:55:10] "GET /about HTTP/1.1" 200 -
 2022-05-08 22:55:12,187 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 22:55:12] "GET /locations/map HTTP/1.1" 200 -
 2022-05-09 12:19:59,822 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/add_user_test.py', reloading
+2022-05-09 12:46:02,091 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 12:46:02] "GET / HTTP/1.1" 200 -
+2022-05-09 12:58:13,134 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_add_user.py', reloading
