@@ -295,3 +295,7 @@
 2022-05-08 14:46:50,405 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:46:50] "GET /welcome HTTP/1.1" 200 -
 2022-05-08 14:46:52,516 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:46:52] "GET /transactions HTTP/1.1" 200 -
 2022-05-08 14:46:52,762 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 14:46:52] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-08 22:55:09,509 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 22:55:09] "GET /welcome HTTP/1.1" 200 -
+2022-05-08 22:55:10,929 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 22:55:10] "GET /about HTTP/1.1" 200 -
+2022-05-08 22:55:12,187 [INFO] werkzeug: 192.168.160.1 - - [08/May/2022 22:55:12] "GET /locations/map HTTP/1.1" 200 -
+2022-05-09 12:19:59,822 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/add_user_test.py', reloading
