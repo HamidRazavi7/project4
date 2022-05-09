@@ -317,3 +317,7 @@
 2022-05-09 14:12:57,143 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_login_registration.py', reloading
 2022-05-09 14:23:30,752 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:23:30] "GET /login HTTP/1.1" 200 -
 2022-05-09 14:23:33,577 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:23:33] "GET /register HTTP/1.1" 200 -
+2022-05-09 14:30:09,339 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_login_registration.py', reloading
+2022-05-09 14:31:18,256 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:31:18] "GET / HTTP/1.1" 200 -
+2022-05-09 14:31:27,737 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:31:27] "GET /register HTTP/1.1" 200 -
+2022-05-09 14:32:26,049 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_login_registration.py', reloading
