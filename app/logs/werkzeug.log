@@ -301,3 +301,19 @@
 2022-05-09 12:19:59,822 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/add_user_test.py', reloading
 2022-05-09 12:46:02,091 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 12:46:02] "GET / HTTP/1.1" 200 -
 2022-05-09 12:58:13,134 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_add_user.py', reloading
+2022-05-09 14:08:34,050 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:08:34] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 14:09:25,966 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-09 14:09:26,028 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:26] "GET /login HTTP/1.1" 200 -
+2022-05-09 14:09:30,610 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-09 14:09:30,631 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:30] "GET /login HTTP/1.1" 200 -
+2022-05-09 14:09:33,046 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:33] "GET /register HTTP/1.1" 200 -
+2022-05-09 14:09:45,970 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:45] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-09 14:09:45,994 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:45] "GET /login HTTP/1.1" 200 -
+2022-05-09 14:09:48,979 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-09 14:09:49,030 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:09:49] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 14:10:52,613 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:10:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-09 14:10:52,645 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:10:52] "GET /login HTTP/1.1" 200 -
+2022-05-09 14:11:04,105 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:11:04] "GET / HTTP/1.1" 200 -
+2022-05-09 14:12:57,143 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_login_registration.py', reloading
+2022-05-09 14:23:30,752 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:23:30] "GET /login HTTP/1.1" 200 -
+2022-05-09 14:23:33,577 [INFO] werkzeug: 192.168.160.1 - - [09/May/2022 14:23:33] "GET /register HTTP/1.1" 200 -
