@@ -19,3 +19,6 @@
 2022-05-09 13:00:48,322 [INFO] myApp: <User 'test@test'>
 2022-05-09 13:24:25,170 [INFO] myApp: None
 2022-05-09 13:29:32,552 [INFO] myApp: None
+2022-05-09 13:44:53,880 [INFO] myApp: <User 'test@test'>
+2022-05-09 13:47:12,119 [INFO] myApp: <User 'test@test'>
+2022-05-09 13:48:13,549 [INFO] myApp: <User 'test@test'>
