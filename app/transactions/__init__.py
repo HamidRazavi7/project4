@@ -59,7 +59,6 @@ def transactions_upload():
         abort(404)
 
 @transactions.route('/transactions/current', methods=['GET'])
-@login_required
 def current_balance():
     sql = text('SELECT SUM(amount) AS current_balance FROM transactions')
     result = db.engine.execute(sql)
