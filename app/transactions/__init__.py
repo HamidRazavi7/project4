@@ -63,4 +63,8 @@ def current_balance():
     sql = text('SELECT SUM(amount) AS current_balance FROM transactions')
     result = db.engine.execute(sql)
     balance = [row[0] for row in result]
+    rv = str(balance[0])
+    if rv == 'None':
+        return '0'
+    # else
     return str(balance[0])
