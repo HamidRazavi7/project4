@@ -405,3 +405,6 @@
 2022-05-10 14:02:27,335 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:27] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
 2022-05-10 14:02:27,391 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:27] "GET /transactions HTTP/1.1" 200 -
 2022-05-10 14:02:27,564 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:27] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-10 14:42:03,325 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:42:03] "GET /transactions HTTP/1.1" 200 -
+2022-05-10 14:42:03,511 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:42:03] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-10 15:20:37,163 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading

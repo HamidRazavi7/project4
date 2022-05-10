@@ -49,7 +49,7 @@ def transactions_upload():
         current_user.transactions = list_of_transactions
         db.session.commit()
 
-        log.info('Transaction CSV Was Uploaded')
+        log.info('A CSV Transaction CSV Was Uploaded')
         return redirect(url_for('transactions.transactions_browse'))
 
     try:
