@@ -7,3 +7,5 @@ __pycache__
 .coverage
 *.log
 .bash_history
+# Local to Mac OS X:
+.DS_Store
