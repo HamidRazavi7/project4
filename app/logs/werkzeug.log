@@ -399,3 +399,9 @@
 2022-05-10 13:54:39,783 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
 2022-05-10 13:54:47,925 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:54:47] "GET /transactions HTTP/1.1" 200 -
 2022-05-10 13:54:48,125 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:54:48] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-10 14:02:08,876 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:08] "GET /transactions HTTP/1.1" 200 -
+2022-05-10 14:02:09,013 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:09] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-10 14:02:17,714 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:17] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 14:02:27,335 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:27] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 14:02:27,391 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:27] "GET /transactions HTTP/1.1" 200 -
+2022-05-10 14:02:27,564 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 14:02:27] "GET /transactions/current HTTP/1.1" 200 -
