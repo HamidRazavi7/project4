@@ -350,3 +350,22 @@
 2022-05-10 12:58:06,022 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:58:06] "[32mPOST /login HTTP/1.1[0m" 302 -
 2022-05-10 12:58:06,057 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:58:06] "GET /dashboard HTTP/1.1" 200 -
 2022-05-10 13:01:14,198 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_access_dashboard.py', reloading
+2022-05-10 13:39:40,312 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:39:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 13:39:40,421 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:39:40] "GET /login HTTP/1.1" 200 -
+2022-05-10 13:39:50,661 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:39:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 13:39:50,693 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:39:50] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 13:40:01,471 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:01] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 13:40:43,966 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 13:40:43,999 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:43] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 13:40:47,458 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 13:40:47,470 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:47] "GET /login HTTP/1.1" 200 -
+2022-05-10 13:40:50,697 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:50] "GET /login HTTP/1.1" 200 -
+2022-05-10 13:40:53,085 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 13:40:53,112 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:53] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 13:40:58,173 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 13:40:58,183 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:40:58] "GET /login HTTP/1.1" 200 -
+2022-05-10 13:42:15,837 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:42:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 13:42:15,988 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:42:15] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 13:42:22,673 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:42:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 13:42:22,695 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:42:22] "GET /login HTTP/1.1" 200 -
+2022-05-10 13:42:23,828 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 13:42:23] "GET /login HTTP/1.1" 200 -
