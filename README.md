@@ -1,4 +1,4 @@
-# Project Setup:
+# Project's App on Heroku, Workflow badges, and Screenshots:
 
 * [Project Website](https://project4prod.herokuapp.com/)
 
