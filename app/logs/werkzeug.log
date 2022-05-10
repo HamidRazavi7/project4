@@ -328,3 +328,25 @@
 2022-05-10 12:05:34,041 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:05:34] "GET / HTTP/1.1" 200 -
 2022-05-10 12:05:34,355 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:05:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2022-05-10 12:07:05,361 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_homepage.py', reloading
+2022-05-10 12:53:42,387 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:53:42] "GET / HTTP/1.1" 200 -
+2022-05-10 12:53:49,548 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:53:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 12:53:49,595 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:53:49] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 12:53:54,199 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:53:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 12:53:54,218 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:53:54] "GET /login HTTP/1.1" 200 -
+2022-05-10 12:54:15,284 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 12:54:15,300 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:15] "GET /login HTTP/1.1" 200 -
+2022-05-10 12:54:20,982 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 12:54:21,011 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:21] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 12:54:22,979 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:22] "[32mGET /login HTTP/1.1[0m" 302 -
+2022-05-10 12:54:23,014 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:23] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 12:54:25,626 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 12:54:25,637 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:25] "GET /login HTTP/1.1" 200 -
+2022-05-10 12:54:55,594 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 12:54:55,612 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:54:55] "GET /login HTTP/1.1" 200 -
+2022-05-10 12:55:12,860 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:55:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 12:55:12,953 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:55:12] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 12:57:52,378 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:57:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 12:57:52,390 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:57:52] "GET /login HTTP/1.1" 200 -
+2022-05-10 12:58:06,022 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:58:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 12:58:06,057 [INFO] werkzeug: 192.168.160.1 - - [10/May/2022 12:58:06] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 13:01:14,198 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/test_access_dashboard.py', reloading
