@@ -1,4 +1,4 @@
-# Project Setup
+# Project Setup:
 
 * [Project Website](https://project4prod.herokuapp.com/)
 
