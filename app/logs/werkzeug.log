@@ -476,3 +476,16 @@
 2022-05-11 14:53:13,495 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 14:53:13] "GET /about HTTP/1.1" 200 -
 2022-05-11 14:53:53,089 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 14:53:53] "GET /about HTTP/1.1" 200 -
 2022-05-11 14:54:30,375 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 14:54:30] "GET /about HTTP/1.1" 200 -
+2022-05-11 14:59:54,421 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 14:59:54] "GET /about HTTP/1.1" 200 -
+2022-05-11 14:59:56,468 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 14:59:56] "GET /dashboard HTTP/1.1" 200 -
+2022-05-11 15:00:02,523 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:00:02] "GET /about HTTP/1.1" 200 -
+2022-05-11 15:00:23,220 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:00:23] "GET /welcome HTTP/1.1" 200 -
+2022-05-11 15:00:25,378 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:00:25] "GET /profile HTTP/1.1" 200 -
+2022-05-11 15:00:30,195 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:00:30] "GET /account HTTP/1.1" 200 -
+2022-05-11 15:00:41,157 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:00:41] "GET /transactions HTTP/1.1" 200 -
+2022-05-11 15:00:41,265 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:00:41] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-11 15:00:52,157 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:00:52] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-11 15:06:01,366 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:06:01] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-11 15:06:06,242 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:06:06] "GET /transactions HTTP/1.1" 200 -
+2022-05-11 15:06:06,358 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:06:06] "GET /transactions/current HTTP/1.1" 200 -
+2022-05-11 15:09:54,898 [INFO] werkzeug: 192.168.160.1 - - [11/May/2022 15:09:54] "GET /welcome HTTP/1.1" 200 -
