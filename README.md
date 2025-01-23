@@ -1,6 +1,5 @@
 # Project's App on Heroku, Workflow badges, and Screenshots:
 
-* [Project Website](https://project4prod.herokuapp.com/)
 
 [![Production Workflow 1](https://github.com/HamidRazavi7/project4/actions/workflows/prod.yml/badge.svg)](https://github.com/HamidRazavi7/project4/actions/workflows/prod.yml)
 
